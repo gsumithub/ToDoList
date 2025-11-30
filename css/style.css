@@ -2,39 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
-    text-decoration: none;
-    list-style: none;
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 body {
-    background-image: linear-gradient(120deg, violet 0%, rgb(185, 148, 185) 100%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
+    background-image: url(../Images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;   
 }
-.todoContainer{
-    background: #fff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: #00000029 0px 0px 10px;
-    text-align: center;
-}
-
 h1{
     margin-bottom: 20px;
     color: #333;
+    position: fixed;
+    top: 8%;
+    left: 62%;
 }
 form{
-    display: flex;
-    align-items: baseline;
-    background: orangered;
-    justify-content: center;
-    gap: 10px;
-    padding: 100px 100px 0px 100px;
+    max-width: 500px;
+    padding: 50px;
     border-radius: 10px;
-    box-shadow: #cccccc31 0px 0px 10px;
 }
 .taskInput{
     padding: 10px;
@@ -52,12 +42,15 @@ form{
     cursor: pointer;
 }
 .taskList{
-    padding: 0px 30px;
-    width: 300px;
-    background-color: #f8f9fa;
-    border-radius: 10px;
+    position: fixed;
+    list-style-type: none;
+    max-width: 450px;
+    background: transparent;
     text-align: left;
-    
+    top: 15%;
+    left: 55%;
+    height: 80vh;
+    overflow-y: auto;
 }
 .taskList button{
     margin-left: 10px;
