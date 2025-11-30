@@ -125,7 +125,6 @@ Font Awesome – Icons
 
 📸 Screenshots
 
-(Add your images using drag & drop in GitHub)
 
 ![Home Screen](assets/screenshots/home.png)
 ![Task List View](assets/screenshots/tasks.png)
