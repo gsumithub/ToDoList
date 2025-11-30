@@ -1,0 +1,29 @@
+@media only screen and (min-width: 200px) and (max-width: 900px) {
+    body{
+    background-image: url(../Images/backgroundmobile.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    }
+    h1{
+    margin-bottom: 20px;
+    color: #333;
+    position: fixed;
+    top: 18%;
+    left: 20%;
+    }
+    form{
+    max-width: 400px;
+    border-radius: 10px;
+    padding: 0px;
+    margin: auto;
+    text-align: center;
+    }
+    .taskList{
+    top: 25%;
+    left: 10%;
+    height: 60vh;
+    }  
+}
