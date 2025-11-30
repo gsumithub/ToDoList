@@ -15,7 +15,8 @@ let userToDoList=[]
             errorElement.innerHTML="Please fill The Value";
        }
        else if(checkmyTODO){
-              errorElement.innerHTML="Your Item added in Todo List";
+              errorElement.innerHTML="This Item is already added in the List";
+              errorElement.style.color="red";
        }
        else{
             let obj={
@@ -24,7 +25,7 @@ let userToDoList=[]
              }
              userToDoList.push(obj)
              errorElement.style.color="green"
-             errorElement.innerHTML="Your Item added ";
+             errorElement.innerHTML="Item Added Successfully to the List";
 
              displayData()
              event.target.reset()
@@ -49,7 +50,7 @@ let userToDoList=[]
         let liItems='' 
         userToDoList.forEach(
             (obj,index)=>{
-                liItems+=`<li> <span style="text-decoration: ${obj.isStatus ? 'line-through' : ''} " data-id="${index}"> ${(index+1)+"->"}  ${obj.title} </span> <button data-id="${index}" >Delete</button></li>`
+                liItems+=`<li> <span style="cursor:pointer; text-decoration: ${obj.isStatus ? 'line-through' : ''} " data-id="${index}" title="Click to change status" > ${(index+1)+"."}  ${obj.title} </span> <button data-id="${index}" >Delete</button></li>`
                 
             }
         )
@@ -61,26 +62,30 @@ let userToDoList=[]
     ulElement.addEventListener("click",(e)=>{
       if(e.target.tagName=="BUTTON"){
         if(confirm("Are you sure want to delete?")){
+            console.log(errorElement);
+            
+              
+              
+               
              let delIndex=e.target.getAttribute("data-id") //0
               userToDoList.splice(delIndex,1) 
                
              displayData()
-            //  function showMessage(text, color) {
-            //     errorElement.innerHTML = text;
-            //     errorElement.style.color = color;
-
-            //     setTimeout(() => {
-            //         errorElement.innerHTML = "";
-            //         errorElement.style.color = "";
-            //     }, 2000);
-            // }
+            errorElement.style.color="Orange"
+            errorElement.innerHTML="Item Deleted Successfully from the List";
+            setTimeout(()=>{
+                errorElement.innerHTML=''
+                errorElement.style.color=""
+           },2000)
+               
+            
             
         }
         
       }
 
        if(e.target.tagName=="SPAN"){
-        if(confirm("Are you sure want to change Status?")){
+        if(confirm("Are you sure want to change this item's status?")){
              let delIndex=e.target.getAttribute("data-id") //0
             
              userToDoList[delIndex].isStatus=  ! userToDoList[delIndex].isStatus
