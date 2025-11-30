@@ -1,10 +1,13 @@
-# ToDoList
-To-Do List Web App  A simple and interactive To-Do List application built using HTML, CSS, and JavaScript.
-This project is part of my MERN development journey, created specifically to practice and master JavaScript after gaining confidence with HTML and CSS.
+📝 To-Do List Web App
+
+A clean, modern, and fully responsive To-Do List application built using HTML, CSS, and JavaScript.
+This project is part of my MERN development journey, designed to help me practice and master JavaScript after gaining strong fundamentals in HTML and CSS.
 
 🚀 Project Purpose
 
-The main goal of this project is to strengthen my understanding of core JavaScript concepts, including:
+This project is created to strengthen my understanding of JavaScript essentials through real-world implementation.
+
+Key concepts practiced:
 
 DOM selection & manipulation
 
@@ -12,79 +15,148 @@ Event handling
 
 Working with forms
 
-Rendering dynamic UI
+Conditional rendering
 
-Using array methods (push, find, splice, forEach)
+Array methods (find, push, splice, forEach)
 
 Template strings
 
-Conditional logic
+Live UI messaging
 
-User feedback using messages
+Responsive design principles
 
-This project helps build the foundation required before moving deeper into React, Node.js, and full MERN development.
+This app helps build the logic needed before moving deeper into React and full MERN stack development.
+
+🎨 Updated UI Highlights
+✔ Fresh Modern UI
+
+The app now features a clean interface with:
+
+Full-screen background image
+
+Centered input form
+
+Soft rounded edges
+
+Clean typography
+
+Color-coded notifications
+
+✔ Task List Panel
+
+Scrollable task list
+
+Transparent background styling
+
+Click-to-toggle task completion
+
+Delete button with confirmation
+
+Auto-updating list
+
+✔ Smooth Error & Success Messages
+
+The UI shows real-time messages such as:
+
+Empty input warning
+
+Duplicate task warning
+
+Task added
+
+Task deleted
+
+Messages fade automatically after a short duration.
+
+✔ Fully Mobile Responsive
+
+Completely redesigned for smooth experience on:
+
+Mobile phones 📱
+
+Tablets 📲
+
+Laptops 💻
+
+Desktops 🖥️
+
+Using a dedicated media.css file and flexible layout adjustments.
 
 ✨ Features
 
-✔ Add new tasks
-✔ Prevent adding duplicate tasks
-✔ Mark tasks as completed (line-through effect)
-✔ Delete tasks with confirmation
-✔ Real-time success/error notifications
-✔ Fully dynamic list rendering
-✔ Clean UI with simple CSS
+Add new tasks
+
+Prevent duplicate entries
+
+Mark tasks as completed
+
+Delete tasks with confirmation
+
+Live UI notifications
+
+Automatically updated list
+
+Clean & responsive UI
 
 🛠️ Tech Stack
 
 HTML5 – Structure
 
-CSS3 – Styling
+CSS3 – Styling & responsive design
 
-JavaScript (Vanilla JS) – Functionality & DOM manipulation
+JavaScript (Vanilla JS) – Logic & DOM manipulation
 
-No libraries, frameworks, or backend — focusing entirely on mastering pure JavaScript logic.
+Font Awesome – Icons
 
 📂 Project Structure
 📁 ToDoList
 │
 ├── index.html
+│
 ├── css/
-│   └── style.css
-└── js/
-    └── app.js
+│   ├── style.css
+│   └── media.css
+│
+├── js/
+│   └── app.js
+│
+└── Images/
+    └── background.jpg
 
-📸 Preview
+📸 Screenshots
 
-<img width="1920" height="1020" alt="Screenshot 2025-11-29 151854" src="https://github.com/user-attachments/assets/cb3ee515-7e39-481d-ab54-327c70e0490a" />
+(Add your images using drag & drop in GitHub)
 
-<img width="1920" height="1020" alt="Screenshot 2025-11-29 151910" src="https://github.com/user-attachments/assets/3566b887-c430-465f-b9e7-1813f125b53b" />
-<img width="1920" height="1020" alt="Screenshot 2025-11-29 151633" src="https://github.com/user-attachments/assets/bade53a4-c123-49e3-a568-43527ed101f4" />
-<img width="1920" height="1020" alt="Screenshot 2025-11-29 150659" src="https://github.com/user-attachments/assets/3e84086c-d7ce-48cf-a4be-81da764e5099" />
-<img width="1920" height="1020" alt="Screenshot 2025-11-29 150615" src="https://github.com/user-attachments/assets/288285ca-ad00-4e92-bbb7-946d812e8c5f" />
-<img width="1920" height="1020" alt="Screenshot 2025-11-29 150553" src="https://github.com/user-attachments/assets/f7093c25-b8cd-4b00-a4dd-a5f8d2c3db3c" />
+![Home Screen](assets/screenshots/home.png)
+![Task List View](assets/screenshots/tasks.png)
+![Mobile Version](assets/screenshots/mobile.png)
 
 🔮 Future Improvements
 
-Add LocalStorage so tasks stay after page refresh
+Add LocalStorage (persistent tasks)
 
-Add Edit Task option
+Add edit/update task option
 
-Add Dark/Light mode toggle
+Add dark/light theme toggle
 
-Add animations for task addition and removal
+Add animations and transitions
 
-Convert to a React-based To-Do app later in the MERN journey
+Convert to a React version later
 
 📚 Learning Outcome
 
-This project significantly improved my ability to:
+This project strengthened my ability to:
 
 Think in JavaScript
 
-Structure real-world logic
+Build real-world functionality
 
-Work with the DOM efficiently
+Manipulate the DOM
 
-Build interactive components without frameworks
+Organize UI components
 
-A solid step toward becoming a professional MERN Stack Developer.
+Make responsive layouts
+
+Build clean and reusable code patterns
+
+A solid step forward in my MERN stack journey.
