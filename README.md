@@ -3,6 +3,12 @@
 A clean, modern, and fully responsive To-Do List application built using HTML, CSS, and JavaScript.
 This project is part of my MERN development journey, designed to help me practice and master JavaScript after gaining strong fundamentals in HTML and CSS.
 
+
+
+https://github.com/user-attachments/assets/65ef50c3-0d47-4f7f-b944-c095b76d06f0
+
+
+
 🚀 Project Purpose
 
 This project is created to strengthen my understanding of JavaScript essentials through real-world implementation.
